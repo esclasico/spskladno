@@ -1,0 +1,43 @@
+Cvičení 1
+Napište program, který:
+
+Požádá uživatele o jeho jméno
+Požádá uživatele o jeho věk
+Vypíše: "Ahoj [jméno]! Za 10 let ti bude [věk + 10] let."
+💡 Nezapomeňte na převod věku z textu na číslo pomocí int()!
+
+# Váš kód sem 👇
+  jmeno = input("Jak se jmenuješ? ")
+vek = int(input("Kolik ti je let? "))
+
+print(f"Ahoj {jmeno}! Za 10 let ti bude {vek + 10} let.")
+
+
+
+
+  cvičení 2
+### Cvičení 2
+
+Napište program, který:
+
+1. Požádá uživatele o dvě čísla
+2. Vypíše jejich součet, rozdíl a součin
+
+Příklad výstupu:
+
+```
+Zadej první číslo: 8
+Zadej druhé číslo: 3
+Součet: 11
+Rozdíl: 5
+Součin: 24
+```
+# Váš kód sem 👇
+  
+  cislo1 = int(input("Zadej první číslo: "))
+  cislo2 = int(input("Zadej druhé číslo: "))
+
+print("Součet:", cislo1 + cislo2)
+print("Rozdíl:", cislo1 - cislo2)
+print("Součin:", cislo1 * cislo2)
+  
